@@ -8,7 +8,7 @@ namespace TestProjectX
         [Fact]
         public void PruebaString()
         {
-            string esperado = "Cuarenta";
+            string esperado = "Cuarenta y uno";
             string actual = "Cuarenta";
 
             Assert.Equal(esperado,actual);
